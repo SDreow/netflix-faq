@@ -1,9 +1,15 @@
 import "./Question.css"
+import { useState } from "react"
 
-const Question = () => {
-
+const Question = ({title, info}) => {
+    const [show, setShow] = useState(false)
     return<>
-        <h1>Test</h1>
+        <section>
+            <h2>{title}</h2>
+            <button onClick={ () => setShow(!show) }>Odpověď</button>
+        </section>
+        {show && <p>{info}</p>}
+        
     </>
 }
 
