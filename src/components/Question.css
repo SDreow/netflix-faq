@@ -21,13 +21,12 @@
 .one-question button {
     height: 40px;
     margin-right: 50px;
-    color: #e5e5e5;
-    background-color: #db0000;
+    background-color: transparent;
+    color: #db0000;
     pad: 5px 10px;
-    font-size: 18px;
+    font-size: 35px;
     cursor: pointer;
     border: none;
-    border-radius: 10px;
 }
 
 .one-question p {

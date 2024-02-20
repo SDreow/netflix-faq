@@ -19,6 +19,11 @@ const questions = [
         title: "Jak často Netflix přidává nové filmy?",
         info: "Iste, accusantium numquam magni excepturi maiores rem molestiae in maxime."
     },
+    {
+        id: 5,
+        title: "V kolika zařízeních mohu Netflix používat?",
+        info: "Iste, accusantium numquam magni excepturi maiores rem molestiae in maxime."
+    },
 ]
 
 export default questions
